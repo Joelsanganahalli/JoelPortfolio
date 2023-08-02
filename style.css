@@ -68,7 +68,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/Cutout.png");
+    background: url("Cutout.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -188,7 +188,7 @@ body {
     position: relative;
     padding: 100px 40px;
     height: 90vh;
-    background-image: url("/www-amico.png");
+    background-image: url("www-amico.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,7 +264,7 @@ body {
     position: relative;
     padding: 100px 40px;
     height: 100vh;
-    background-image: url("/10354235_4428861.jpg");
+    background-image: url("10354235_4428861.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
