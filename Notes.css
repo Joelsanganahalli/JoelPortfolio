@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #492382;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+  
+  .note-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #noteInput {
+    margin-right: 10px;
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-color: whitesmoke;
+    border-width: 1px;
+    outline: none;
+    background: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover{
+    color: white;
+    background-color: rgb(56, 148, 56);
+    border-color:rgb(56, 148, 56);
+    transition: 0.2s ease-in-out;
+  }
+  
+  .note-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .note-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .note-item span {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .note-item button {
+    background-color: #ff4d4d;
+    margin-left: 10px;
+  }
+  
