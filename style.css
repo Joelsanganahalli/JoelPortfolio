@@ -500,7 +500,7 @@ body {
     }
 
     .About {
-        height: 70vh;
+        height: auto;
     }
 
     .About .content p {
@@ -508,8 +508,16 @@ body {
         letter-spacing: 0px;
     }
 
+     .skills{
+        padding: 60px 0px;
+    }
+    
     .skills h2 {
         font-size: 20px;
+    }
+
+     .hobbies{
+        padding: 60px 0px;
     }
 
     .hobbies img {
@@ -527,5 +535,14 @@ body {
         color: whitesmoke;
         letter-spacing: 1px;
         font-size: 14px;
+    }
+
+       .Projects{
+        padding: 60px 0px;
+    }
+
+    .contact{
+        padding: 60px 0px;
+        height: auto;
     }
 }
